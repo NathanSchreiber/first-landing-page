@@ -1,1 +1,3 @@
-# first-landing-page
+This is a landing page created while doing The Odin Project.
+
+Header Image Credit: Image by <a href="https://pixabay.com/users/bingodesigns-213864/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=398342">Bingo Naranjo</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=398342">Pixabay</a>
