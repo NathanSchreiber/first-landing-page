@@ -19,7 +19,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 100px;
+    margin: 0 300px;
 }
 
 ul {
@@ -36,7 +36,7 @@ a {
 }
 
 .header-main {
-    margin: 0 100px;
+    margin: 0 300px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -50,10 +50,12 @@ a {
 .large-header {
     font-size: 48px;
     font-weight: 550;
+    line-height: 50px;
+    margin-bottom: 10px;
 }
 
 .mountain-scene {
-    height: 150px;
+    height: 200px;
     width: auto;
 }
 
@@ -63,6 +65,7 @@ a {
 
 .header-logo {
     font-size: 24px;
+    font-weight: 600;
 }
 
 .header-color-2 {
@@ -70,17 +73,103 @@ a {
     font-size: 18px;
 }
 
-
-
-
-
-
-
-.info-img-1, .info-img-2, .info-img-3, .info-img-4 {
-    max-width: 200px;
+.header-sign-up {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    border: 0;
+    padding: 5px 20px;
+    margin-bottom: 70px;
 }
 
+.middle-info {
+}
 
+.info-heading {
+   display: flex;
+   justify-content: center;
+   font-weight: 600;
+   margin-bottom: 50px;
+   font-size: 36px;
+}
+
+.info-img {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.info-img-1, .info-img-2, .info-img-3, .info-img-4 {
+    /* max-width: 200px; */
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.img-caption {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    text-align: center;
+}
+
+.quote-section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    margin-top: 100px;
+}
+
+.quote-text {
+    margin: 0 600px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    margin-bottom: 0;
+    font-style: italic;
+}
+
+.thor {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.cta {
+    background-color: #3882F6;
+    margin: 100px 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 16px;
+}
+
+.cta-heading {
+    color: #F9FAF8;
+    font-size: 24px;
+    margin-bottom: 4px;
+}
+
+.cta-description {
+    color: #E5E7EB;
+    font-size: 16px;
+    font-weight: lighter;
+    margin-top: 4px;
+}
+
+.cta-button {
+    border-radius: 5px;
+    border: 1px solid #F9FAF8;
+    padding: 5px 20px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
 
 .footer {
     display: flex;
@@ -93,4 +182,5 @@ a {
 .wrapper {
     display: flex;
     flex: 1;
+    flex-direction: column;
 }
